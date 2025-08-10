@@ -307,6 +307,7 @@ height:18.75rem;
     }
     .nav{
         border-radius: 0px;
+        border:none;
     }
     
     
@@ -409,4 +410,5 @@ height:18.75rem;
     color: white;
     margin-top: 50px;
 }
+
 
