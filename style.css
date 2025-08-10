@@ -54,13 +54,9 @@ margin-left: 1.5rem;
     border: 1px white solid;
     border-radius: 10px;
     padding: 7px;
-    transition: 0.6s;
-    transition-delay: 0.6s;
 }
 .nav-links:hover{
     color: #61dafb;
-    transition: 0.6s;
-    transition-delay: 0.6s;
 }
 *{
 color: white;
@@ -138,34 +134,7 @@ h1{
      border: 0.2px white solid;
 
 }
-.web-design:hover{
-     height:32vh;
-    width:62vh;
-     box-shadow: 3px 3px rgb(102, 99, 99);
-    transition: 0.6s;
-    transition-delay: 0.6s;
-}
-.web-dev:hover{
-     height:32vh;
-    width:62vh;
-    box-shadow: 3px 3px rgb(93, 92, 92);
-    transition: 0.6s;
-    transition-delay: 0.6s;
-}
-.logo:hover{
-     height: 4rem;
-     width: 11rem;
-  
-    box-shadow: 3px 3px rgb(102, 99, 99);
-    transition: 0.6s;
-    transition-delay: 0.6s;
-}
 
-.card:hover{
-    box-shadow: 3px 3px rgb(102, 99, 99);
-    transition: 0.6s;
-    transition-delay: 0.6s;
-}
 h2{ font-size: 2rem; 
   
 
@@ -313,21 +282,57 @@ height:40vh;
     }
 
 
-@media (max-width:768px) {
+/*MEDIA QUERY */
+
+@media (max-width:600px) {
     .home-text{ display: flex;
         flex-direction: column;
        align-items: center;
+       margin-top: 10px;
 
     }
-    .services-info,.home{
+   
+     
+    
+    
+    .nav-links{
+        margin-top: -37px;
+        margin-right: 10px;
+    }
+    .nav{
+        border-radius: 0px;
+    }
+    
+    #message{
+        width: 150px;
+        
+    }
+    .form1{
+        padding-top: 20px;
+    }
+    .social{
+        padding-bottom: 60px;
+        margin-top: 2px;
+    }
+    
+    .services-info{
         display: flex;
         flex-direction: column;
        align-items: center;
-       height: 100vh;
+       height: 800px;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       height: 800px;
     }
     .home-pic{
         height: 20rem;
         
+    }
+    .web-design,.web-dev{
+        width: 310px;
     }
     #java{
       width: 40px;
@@ -359,8 +364,40 @@ height:40vh;
 }
 }
 
+.web-design:hover{
+    height:31vh;
+    width:61vh;
+     box-shadow: 3px 3px rgb(102, 99, 99);
+     transition-delay: 1s;
+      transition: 0.6s;
+    transition-delay: 0.6s;
+   
+}
+.web-dev:hover{
+    height:31vh;
+    width:61vh;
+    box-shadow: 3px 3px rgb(93, 92, 92);
+     transition: 0.6s;
+    transition-delay: 0.6s;
+}
+.logo:hover{
+     height: 4rem;
+     width: 11rem;
+     
+   transition: 0.6s;
+    transition-delay: 0.6s;
+    box-shadow: 3px 3px rgb(102, 99, 99);
+}
+
+.card:hover{
+    box-shadow: 3px 3px rgb(102, 99, 99);
+    transition: 0.6s;
+    transition-delay: 0.6s;
+}
+
 .container{
     color: white;
     margin-top: 50px;
-
 }
+}
+
