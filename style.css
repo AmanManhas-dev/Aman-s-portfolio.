@@ -199,7 +199,6 @@ height:18.75rem;
     width: 100%;
    display: flex;
    flex-direction: column;
-   align-items: center;
 }
 .projrct-img{
     border-radius: 1.5rem;
@@ -223,6 +222,14 @@ height:18.75rem;
     
     
 }
+.pro{
+    display: flex;
+   justify-content: center;
+}
+ .clones{
+        display: flex;
+        justify-content: space-evenly;
+    }
 
    
 .form1{
@@ -298,6 +305,7 @@ height:18.75rem;
 
     }
    
+   
      
     
     
@@ -307,7 +315,7 @@ height:18.75rem;
     }
     .nav{
         border-radius: 0px;
-        border:none;
+        border: none;
     }
     
     
@@ -322,7 +330,7 @@ height:18.75rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 370px;
+        height: 370px; 
     }
     
     .services-info{
@@ -410,5 +418,3 @@ height:18.75rem;
     color: white;
     margin-top: 50px;
 }
-
-
